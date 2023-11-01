@@ -9,6 +9,12 @@ export default function Header() {
         <LogoDefault />
         <p>Pedro</p>
       </div>
+      <div>
+      <a href="#"><span className=" text-primary">#</span>home</a>
+        <a href="#"><span className=" text-primary">#</span>works</a>
+        <a href="#"><span className=" text-primary">#</span>about-me</a>
+        <a href="#"><span className=" text-primary">#</span>contacts</a>
+      </div>
         <MenuHamburguer />
     </div>
   )

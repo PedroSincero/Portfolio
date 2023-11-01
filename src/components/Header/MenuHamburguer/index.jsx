@@ -6,7 +6,7 @@ import BurguerOpen from "./BurguerOpen";
 export default function MenuHamburguer() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="flex self-center">
+    <div className="flex self-center lg:hidden">
       <button type="button" onClick={() => setOpen(!open)}>
         {open ? <CloseIcon /> : <OpenIcon /> }
       </button>
