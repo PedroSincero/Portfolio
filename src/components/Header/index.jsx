@@ -1,4 +1,4 @@
-import Burguer from "./Burguer"
+import MenuHamburguer from "./MenuHamburguer"
 import LogoDefault from "../LogoDefault"
 
 
@@ -9,7 +9,7 @@ export default function Header() {
         <LogoDefault />
         <p>Pedro</p>
       </div>
-        <Burguer />
+        <MenuHamburguer />
     </div>
   )
 }
