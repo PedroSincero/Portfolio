@@ -10,5 +10,6 @@
 @layer base {
   html {
     font-family: 'FiraCode', sans-serif;
+    color: white;
   }
 }
