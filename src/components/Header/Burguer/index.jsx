@@ -1,5 +1,9 @@
+import OpenIcon from "./OpenIcon";
+
 export default function Burguer() {
   return (
-    <div>Burguer</div>
+    <div className="flex self-center">
+      <OpenIcon />
+    </div>
   )
 }
