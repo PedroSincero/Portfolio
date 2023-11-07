@@ -2,12 +2,12 @@ import ImageDefault from '../../../assets/ImageDefault.png';
 
 export default function Profile() {
   return (
-    <div>
-      <div>
-        <img src={ImageDefault} alt="default Image" />
+    <div className=" flex flex-col items-center flex-grow">
+      <div className=" w-3/4">
+          <img className=" w-full" src={ImageDefault} alt="default Image" />
       </div>
       <div>
-        <p><span>#</span>Opentowork</p>
+        <p className=" text-lg text-secondary"><span className="text-primary">#</span>OpenToWork</p>
       </div>
     </div>
   );
