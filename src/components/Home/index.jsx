@@ -1,5 +1,11 @@
+import Description from './Description';
+import Profile from './Profile';
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Description />
+      <Profile />
+    </div>
   )
 }
