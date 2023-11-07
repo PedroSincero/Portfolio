@@ -2,7 +2,7 @@ export default function Description() {
   return (
     <div className=" w-1/2 mt-20">
       <p className=" text-4xl">
-        Pedro é um <span className="text-primary">desenvolvedor full stack</span> que ama o que faz e está sempre em busca de novos desafios.
+        Pedro é um <span className="text-primary font-bold">desenvolvedor full stack</span> que ama o que faz e está sempre em busca de novos desafios.
       </p>
 
       <p className=" text-lg text-secondary mt-8">
