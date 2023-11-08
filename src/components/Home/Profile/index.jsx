@@ -7,7 +7,7 @@ export default function Profile() {
     <div className=" flex flex-col items-center flex-grow">
       <div>
         <div className='relative'>
-          <img className='absolute right-0 -bottom-80 z-10' src={Dots} alt="Dots" />
+          <img className='absolute right-0 -bottom-60 lg:-bottom-80 z-10' src={Dots} alt="Dots" />
         </div>
         <div className='relative'>
           <img className='absolute -z-10' src={Logo} alt="Logo" />
