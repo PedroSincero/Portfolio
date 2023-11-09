@@ -9,7 +9,7 @@ export default function Home() {
         <Description />
         <Profile />
       </div>
-      <CatchPhrase phase={"Você pode escolher a coragem ou pode escolher o conforto. Mas você não pode ter os dois."} />
+      <CatchPhrase phase={"Caneta azul, azul caneta Caneta azul tá marcada com minha letra"} />
     </div>
   )
 }
