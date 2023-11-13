@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Midias from './components/Midias'
 import Home from './components/Home'
+import Projects from './components/Projects'
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Midias />
       <Header />
       <Home />
+      <Projects />
     </div>
   )
 }
