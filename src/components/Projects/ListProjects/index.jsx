@@ -1,16 +1,18 @@
+import defaultImage from '../../../assets/dImage.jpg';
+
 export default function ListProjects() {
   return (
-    <div className=" py-12">
-      <img src="" alt=""  />
-      <div>
-        <p>HTML SCSS Python Flask</p>
+    <div className="border border-secondary text-secondary text-xl w-96">
+      <img className='w-96 h-64' src={defaultImage} alt=""  />
+      <div className='border border-secondary p-3'>
+        <p>HTML SCSS Python Flask </p>
       </div>
-      <div>
-        <h1>ChertNodes</h1>
+      <div className=' flex flex-col gap-4 border border-secondary p-4 '>
+        <h1 className=' text-white text-2xl font-bold'>ChertNodes</h1>
         <p>Minecraft server hosting</p>
-        <div>
-          <button type="button">Live</button>
-          <button type="button">Cached</button>
+        <div className='flex gap-5'>
+          <button className='border border-secondary px-4 py-2' type="button">{'Live <~>'}</button>
+          <button className='border border-secondary px-4 py-2' type="button">{'Cached >='}</button>
         </div>
       </div>
     </div>
