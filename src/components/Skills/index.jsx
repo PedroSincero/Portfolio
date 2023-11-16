@@ -12,6 +12,10 @@ export default function Skills() {
       <div className='flex'>
       <img src={SkillPhoto} alt="teste" />
       <Skill title="Languages" tecnologies={['Typescript ', 'Lua ', 'Python ', 'Javascript ']}/>
+      <Skill title="Databases" tecnologies={['SQLite ', 'PostgreSQL ', 'Mongo ']}/>
+      <Skill title="Tools" tecnologies={['VSCode', 'Neovim ', 'Linux ', 'Figma ', 'XFCE', 'Arch', 'Git', 'Font', 'Awesome']}/>
+      <Skill title="Other" tecnologies={['HTML ', 'CSS ', 'EJS ', 'SCSS ', 'REST', 'Jinja']}/>
+      <Skill title="Frameworks" tecnologies={['React ', 'Vue ', 'Disnake ', 'Discord ', 'Flask', 'Express.js']}/>
       </div>
     </>
   )
