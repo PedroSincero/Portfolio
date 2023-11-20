@@ -3,6 +3,7 @@ import Midias from './components/Midias'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import AboutMe from './components/AboutMe'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Home />
       <Projects />
       <Skills />
+      <AboutMe />
     </div>
   )
 }
