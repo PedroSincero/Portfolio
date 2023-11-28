@@ -10,8 +10,8 @@ export default function Contacts() {
         <img className=' w-2/4 px-5 pr-20' src={Line} alt="Line" />
       </div>
   
-    <div className='flex'>
-      <div>
+    <div className='flex justify-between'>
+      <div className='text-2xl w-1/3'>
         <p>
           Estou interessado em oportunidades freelance. No entanto, se você tiver outra solicitação ou dúvida, não hesite em entrar em contato comigo
         </p>
