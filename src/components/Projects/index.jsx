@@ -3,7 +3,7 @@ import ListProjects from './ListProjects/index';
 
 export default function Projects() {
   return (
-    <div className=' my-28'>
+    <div className='hidden lg:block lg:my-28'>
       <div className="hidden lg:flex pb-12">
         <p className='text-4xl font-bold'><span className='text-primary'>#</span>Projects</p>
         <img className=' w-4/5 px-5 pr-20' src={Line} alt="Line" />
