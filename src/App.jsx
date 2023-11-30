@@ -10,8 +10,8 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <div className=" mx-8 lg:w-4/5 lg:mx-auto">
-      <Midias />
       <Header />
+      <Midias />
       <Home />
       <Projects />
       <Skills />
