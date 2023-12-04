@@ -12,12 +12,14 @@ export default function App() {
     <div className=" mx-8 lg:w-4/5 lg:mx-auto">
       <Header />
       <Midias />
-      <Home />
-      <Projects />
-      <Skills />
-      <AboutMe />
-      <Contacts />
-      <Footer />
+      <div className='flex flex-col gap-28'>
+        <Home />
+        <Projects />
+        <Skills />
+        <AboutMe />
+        <Contacts />
+        <Footer />
+      </div>
     </div>
   )
 }
