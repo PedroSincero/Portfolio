@@ -10,7 +10,7 @@ export default function Skills() {
         <img className=' w-2/4 px-5 pr-20' src={Line} alt="Line" />
       </div>
       <div className='flex'>
-        <div className=' w-2/5 ml-72'>
+        <div className=' w-2/5'>
           <img className=' w-full' src={SkillPhoto} alt="teste" />
         </div>
         <div className=' grid grow justify-end content-start'>
