@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
+    <>
     <div className=" mx-8 lg:w-4/5 lg:mx-auto">
       <Header />
       <Midias />
@@ -18,8 +19,9 @@ export default function App() {
         <Skills />
         <AboutMe />
         <Contacts />
-        <Footer />
       </div>
+        <Footer /> 
     </div>
+    </>
   )
 }
