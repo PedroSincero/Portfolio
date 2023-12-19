@@ -10,18 +10,18 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <>
-    <div className=" mx-8 lg:w-4/5 lg:mx-auto">
-      <Header />
-      <Midias />
-      <div className='flex flex-col gap-28'>
-        <Home />
-        <Projects />
-        <Skills />
-        <AboutMe />
-        <Contacts />
+      <div className=" mx-8 lg:w-4/5 lg:mx-auto">
+        <Header />
+        <Midias />
+        <div className='flex flex-col gap-28'>
+          <Home />
+          <Projects />
+          <Skills />
+          <AboutMe />
+          <Contacts />
+        </div>
       </div>
         <Footer /> 
-    </div>
     </>
   )
 }

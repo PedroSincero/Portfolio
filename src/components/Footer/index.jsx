@@ -6,7 +6,7 @@ import Discord from '../../assets/Discord.svg'
 export default function Footer() {
   return (
     <div className=" border-t border-secondary">
-      <div className="flex justify-between py-8">
+      <div className="flex justify-between py-8  mx-48 min-[2000px]:mx-64">
         <div className="flex flex-col gap-4">
           <div className="flex gap-3">
             <LogoDefault />
