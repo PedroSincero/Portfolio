@@ -3,7 +3,7 @@ import LogoDefault from "../LogoDefault"
 
 export default function Header() {
   return (
-    <div className="flex py-4 sticky top-0 justify-between bg-background z-40">
+    <div className="flex py-4 sticky top-0 justify-between bg-background z-40 px-32 min-[1920px]:px-48">
       <div className="flex items-center gap-3 text-2xl font-bold">
         <LogoDefault />
         <p>Pedro</p>

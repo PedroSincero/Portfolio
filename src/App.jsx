@@ -10,8 +10,8 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <>
+      <Header />
       <div className=" mx-8 lg:w-4/5 lg:mx-auto">
-        <Header />
         <Midias />
         <div className='flex flex-col gap-28'>
           <Home />
