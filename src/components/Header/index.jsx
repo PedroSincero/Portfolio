@@ -9,10 +9,10 @@ export default function Header() {
         <p>Pedro</p>
       </div>
       <div className="hidden lg:flex items-start gap-8 self-center text-2xl">
-        <a href="#"><span className=" text-primary">#</span>home</a>
-        <a href="#"><span className=" text-primary">#</span>works</a>
-        <a href="#"><span className=" text-primary">#</span>about-me</a>
-        <a href="#"><span className=" text-primary">#</span>contacts</a>
+        <a href="#home"><span className=" text-primary">#</span>home</a>
+        <a href="#projects"><span className=" text-primary">#</span>projects</a>
+        <a href="#about-me"><span className=" text-primary">#</span>about-me</a>
+        <a href="#contacts"><span className=" text-primary">#</span>contacts</a>
       </div>
         <MenuHamburguer />
     </div>

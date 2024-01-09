@@ -4,7 +4,7 @@ import Profile from './Profile';
 
 export default function Home() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col' id='home'>
       <div className="flex max-lg:flex-col mt-8 lg:mt-20 lg:gap-80">
         <Description />
         <Profile />

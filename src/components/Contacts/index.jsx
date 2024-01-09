@@ -4,7 +4,7 @@ import Email from '../../assets/Email (1).svg'
 
 export default function Contacts() {
   return (
-    <div className='hidden lg:block h-96'>
+    <div className='hidden lg:block h-96' id='contacts'>
       <div className="hidden lg:flex pb-12">
         <p className='text-4xl font-bold'><span className='text-primary'>#</span>Contacts</p>
         <img className=' w-2/4 px-5 pr-20' src={Line} alt="Line" />
