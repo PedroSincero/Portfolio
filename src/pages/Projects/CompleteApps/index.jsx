@@ -5,7 +5,8 @@ export default function CompleteApps() {
   return (
     <div>
       <Title title={'complete-apps'} span={'#'}/>
-      <div className="flex gap-8 justify-center">
+      <div className="flex gap-8">
+        <ListProjects />
         <ListProjects />
         <ListProjects />
         <ListProjects />
