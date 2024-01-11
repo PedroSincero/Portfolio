@@ -1,6 +1,6 @@
 export default function ListProjectC({ image, tag, title, description, live, code }) {
   return (
-    <div className="border border-secondary text-secondary text-xl w-96">
+    <div className=" border-secondary text-secondary text-xl w-80">
       {
         image && <img className='w-96 h-64' src={image} alt={title}  />
       }

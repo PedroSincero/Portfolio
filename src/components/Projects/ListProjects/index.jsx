@@ -2,7 +2,7 @@ import defaultImage from '../../../assets/dImage.jpg';
 
 export default function ListProjects() {
   return (
-    <div className="border border-secondary text-secondary text-xl w-96">
+    <div className="border border-secondary text-secondary text-xl w-80">
       <img className='w-96 h-64' src={defaultImage} alt=""  />
       <div className='border border-secondary p-3'>
         <p>HTML SCSS Python Flask </p>
