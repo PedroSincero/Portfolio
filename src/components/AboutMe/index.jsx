@@ -1,5 +1,6 @@
 import Line from '../../assets/Line7.svg';
 import ImageAbout from '../../assets/Image1.png'
+import { Link } from 'react-router-dom';
 
 export default function AboutMe() {
   return (
@@ -20,7 +21,9 @@ export default function AboutMe() {
           <p className=' pb-14'>
             Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks. I am a hard worker and I always try to deliver the best quality possible.
           </p>
-          <button className='border border-primary px-4 py-2' type="button">{'Read more ~>'}</button>
+          <Link to='/about'>
+            <button className='border border-primary px-4 py-2' type="button">{'Read more ~>'}</button>
+          </Link>
         </div>
         <div>
           <img src={ImageAbout} alt="teste" />
