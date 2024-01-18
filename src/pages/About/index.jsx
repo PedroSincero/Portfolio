@@ -2,6 +2,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Skill from "../../components/Skills/Skill";
 import Title from "../../components/Title";
+import DefaultImage from "../../assets/jc.png";
 
 export default function About() {
   const text =  `Hello, i’m Pedro!
@@ -14,16 +15,16 @@ export default function About() {
     <>
       <Header />
       <div className="py-8  px-32 min-[1920px]:px-48">
-        <div>
-          <Title title={'about-me'} span={'/'} subTitle={'Who am i?'}/>
-          <div className="w-3/4 whitespace-break-spaces text-secondary">
+        <Title title={'about-me'} span={'/'} subTitle={'Who am i?'}/>
+        <div className="flex justify-between">
+          <div className="w-3/5 whitespace-break-spaces text-secondary pt-16">
             { text }
           </div>
-          <img src="" alt="" />
+          <img src={DefaultImage} alt="jc" />
         </div>
         <div>
           <Title title={'skills'} span={'#'}/>
-          <div className="flex">
+          <div className="flex gap-4">
             <Skill title="Languages" tecnologies={['Typescript ', 'Lua ', 'Python ', 'Javascript ']} />
             <Skill title="Databases" tecnologies={['SQLite ', 'PostgreSQL ', 'Mongo ']}/>
             <Skill title="Tools" tecnologies={['VSCode', 'Neovim ', 'Linux ', 'Figma ', 'XFCE ', 'Arch ', 'Git ', 'Font ', 'Awesome ']}/>
