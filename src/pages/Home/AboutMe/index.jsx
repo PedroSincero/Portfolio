@@ -1,5 +1,5 @@
-import Line from '../../assets/Line7.svg';
-import ImageAbout from '../../assets/Image1.png'
+import Line from '../../../assets/Line7.svg';
+import ImageAbout from '../../../assets/Image1.png'
 import { Link } from 'react-router-dom';
 
 export default function AboutMe() {

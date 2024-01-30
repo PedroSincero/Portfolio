@@ -1,5 +1,5 @@
 import ListProjectC from "../../../components/ListProjectC";
-import ListProjects from "../../../components/Projects/ListProjects";
+import ListProjects from "../../Home/Projects/ListProjects";
 import Title from "../../../components/Title";
 import defaultImage from '../../../assets/dImage.jpg';
 

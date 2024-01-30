@@ -1,6 +1,6 @@
-import ImageDefault from '../../../assets/ImageDefault.png';
-import Logo from '../../../assets/Logo.png';
-import Dots from '../../../assets/Dots.png';
+import ImageDefault from '../../../../assets/ImageDefault.png';
+import Logo from '../../../../assets/Logo.png';
+import Dots from '../../../../assets/Dots.png';
 
 export default function Profile() {
   return (

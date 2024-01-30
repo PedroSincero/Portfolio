@@ -1,6 +1,6 @@
-import Line from '../../assets/Line7.svg';
+import Line from '../../../assets/Line7.svg';
 import Skill from './Skill';
-import SkillPhoto from '../../assets/Group36.png';
+import SkillPhoto from '../../../assets/Group36.png';
 
 export default function Skills() {
   return (

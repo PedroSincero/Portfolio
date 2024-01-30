@@ -1,4 +1,4 @@
-import CatchPhrase from '../CatchPhrase';
+import CatchPhrase from '../../../components/CatchPhrase';
 import Description from './Description';
 import Profile from './Profile';
 

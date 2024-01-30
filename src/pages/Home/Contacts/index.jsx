@@ -1,6 +1,6 @@
-import Line from '../../assets/Line7.svg';
-import Discord from '../../assets/Discord (1).svg';
-import Email from '../../assets/Email (1).svg'
+import Line from '../../../assets/Line7.svg';
+import Discord from '../../../assets/Discord (1).svg';
+import Email from '../../../assets/Email (1).svg'
 
 export default function Contacts() {
   return (

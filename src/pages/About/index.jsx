@@ -1,4 +1,4 @@
-import Skill from "../../components/Skills/Skill";
+import Skill from "../Home/Skills/Skill";
 import Title from "../../components/Title";
 import DefaultImage from "../../assets/jc.png";
 

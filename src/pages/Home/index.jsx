@@ -1,16 +1,16 @@
 // import Header from './components/Header'
-import Home from '../components/Home'
-import Projects from '../components/Projects'
-import Skills from '../components/Skills'
-import AboutMe from '../components/AboutMe'
-import Contacts from '../components/Contacts'
+import First from './First'
+import Projects from './Projects'
+import Skills from './Skills'
+import AboutMe from './AboutMe'
+import Contacts from './Contacts'
 
-export default function App() {
+export default function Home() {
   return (
     <>
       <div className=" mx-8 lg:w-4/5 lg:mx-auto">
         <div className='flex flex-col gap-28'>
-          <Home />
+          <First />
           <Projects />
           <Skills />
           <AboutMe />

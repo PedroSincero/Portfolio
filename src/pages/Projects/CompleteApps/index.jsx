@@ -1,5 +1,5 @@
 import Title from "../../../components/Title";
-import ListProjects from "../../../components/Projects/ListProjects";
+import ListProjects from "../../Home/Projects/ListProjects";
 
 export default function CompleteApps() {
   return (

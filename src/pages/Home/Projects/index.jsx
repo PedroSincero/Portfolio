@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Line from '../../assets/Line7.svg';
+import Line from '../../../assets/Line7.svg';
 import ListProjects from './ListProjects/index';
 
 

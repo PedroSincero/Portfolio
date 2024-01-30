@@ -1,4 +1,4 @@
-import defaultImage from '../../../assets/dImage.jpg';
+import defaultImage from '../../../../assets/dImage.jpg';
 
 export default function ListProjects() {
   return (
