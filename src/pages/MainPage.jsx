@@ -1,9 +1,9 @@
 // import Header from './components/Header'
-import Home from './components/Home'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import AboutMe from './components/AboutMe'
-import Contacts from './components/Contacts'
+import Home from '../components/Home'
+import Projects from '../components/Projects'
+import Skills from '../components/Skills'
+import AboutMe from '../components/AboutMe'
+import Contacts from '../components/Contacts'
 
 export default function App() {
   return (

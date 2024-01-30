@@ -1,14 +1,11 @@
 // App.js
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import MainPage from './MainPage.jsx'
-import { About,
-  Contacts,
-  Projects,
-   } from './pages';
-import Footer from './components/Footer/index.jsx';
-import Midias from './components/Midias/index.jsx';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import MainPage from "./pages/MainPage.jsx";
+import { About, Contacts, Projects } from "./pages";
+import Footer from "./components/Footer/index.jsx";
+import Midias from "./components/Midias/index.jsx";
 
 function App() {
   return (
