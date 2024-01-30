@@ -15,7 +15,7 @@ export default function Header() {
         <Link to="/"><span className=" text-primary">#</span>home</Link>
         <Link to="/projects"><span className=" text-primary">#</span>projects</Link>
         <Link to="/about"><span className=" text-primary">#</span>about-me</Link>
-        <a href="/contact"><span className=" text-primary">#</span>contacts</a>
+        <Link to="/contact"><span className=" text-primary">#</span>contacts</Link>
       </div>
         <MenuHamburguer />
     </div>

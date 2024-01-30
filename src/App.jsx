@@ -1,27 +1,31 @@
-import Header from './components/Header'
-import Midias from './components/Midias'
-import Home from './components/Home'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import AboutMe from './components/AboutMe'
-import Contacts from './components/Contacts'
-import Footer from './components/Footer'
+// App.js
 
-export default function App() {
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import MainPage from './MainPage.jsx'
+import { About,
+  Contacts,
+  Projects,
+   } from './pages';
+import Footer from './components/Footer/index.jsx';
+import Midias from './components/Midias/index.jsx';
+
+function App() {
   return (
-    <>
-      <Header />
-      <div className=" mx-8 lg:w-4/5 lg:mx-auto">
+    <BrowserRouter>
+      <div>
+        <Header />
         <Midias />
-        <div className='flex flex-col gap-28'>
-          <Home />
-          <Projects />
-          <Skills />
-          <AboutMe />
-          <Contacts />
-        </div>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contacts />} />
+        </Routes>
+        <Footer />
       </div>
-        <Footer /> 
-    </>
-  )
+    </BrowserRouter>
+  );
 }
+
+export default App;
