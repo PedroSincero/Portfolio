@@ -9,7 +9,6 @@ import Midias from "./components/Midias/index.jsx";
 function App() {
   return (
     <BrowserRouter>
-      <div>
         <Header />
         <Midias />
         <Routes>
@@ -19,7 +18,6 @@ function App() {
           <Route path="/contact" element={<Contacts />} />
         </Routes>
         <Footer />
-      </div>
     </BrowserRouter>
   );
 }
