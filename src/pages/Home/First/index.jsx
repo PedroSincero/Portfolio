@@ -9,7 +9,7 @@ export default function Home() {
         <Description />
         <Profile />
       </div>
-      <CatchPhrase phase={"Caneta azul, azul caneta Caneta azul tá marcada com minha letra"} />
+      <CatchPhrase phase={"Caneta azul, azul caneta Caneta azul tá marcada com minha letra"} author={'Azul Caneta'} />
     </div>
   )
 }

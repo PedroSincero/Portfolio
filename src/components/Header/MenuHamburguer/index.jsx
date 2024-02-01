@@ -8,7 +8,7 @@ export default function MenuHamburguer() {
   return (
     <div className="flex self-center lg:hidden">
       <button type="button" onClick={() => setOpen(!open)}>
-        {open ? <CloseIcon /> : <OpenIcon /> }
+        {open ? <CloseIcon /> : <OpenIcon setOpen={ setOpen }/> }
       </button>
       {open && <BurguerOpen /> }
     </div>
