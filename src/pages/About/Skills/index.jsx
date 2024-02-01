@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <>
       <Title title={"skills"} span={"#"} />
-      <div className="lg:flex gap-4">
+      <div className=" sm:grid sm:grid-cols-2  lg:flex gap-4">
         <Skill
           title="Languages"
           tecnologies={["Typescript ", "Lua ", "Python ", "Javascript "]}
