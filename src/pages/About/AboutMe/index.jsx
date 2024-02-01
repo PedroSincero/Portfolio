@@ -12,10 +12,10 @@ export default function AboutMe() {
     <div>
       <Title title={"about-me"} span={"/"} subTitle={"Who am i?"} />
       <div className="flex justify-between">
-        <div className="w-3/5 whitespace-break-spaces text-secondary pt-16">
+        <div className="lg:w-3/5 whitespace-break-spaces text-secondary pt-16">
           {text}
         </div>
-        <img src={DefaultImage} alt="jc" />
+        <img className="hidden lg:block" src={DefaultImage} alt="jc" />
       </div>
     </div>
   );
