@@ -1,7 +1,7 @@
-import LogoDefault from "../../components/LogoDefault"
-import Github from '../../assets/Github.svg'
-import Linkedin from '../../assets/Linkedin.svg'
-import Discord from '../../assets/Discord.svg'
+import LogoDefault from "../../components/LogoDefault";
+import Github from "../../assets/Github.svg";
+import Linkedin from "../../assets/Linkedin.svg";
+import Email from "../../assets/Email.svg";
 
 export default function Footer() {
   return (
@@ -17,14 +17,28 @@ export default function Footer() {
         </div>
 
         <div>
-          <p>Media</p>
+          <p>Medias</p>
           <div className="flex gap-3">
-            <img src={Github} alt="github" />
-            <img src={Linkedin} alt="linkedin" />
-            <img src={Discord} alt="discord" />
+            <a
+              href="https://github.com/PedroSincero"
+              target="__blank"
+              className="flex items-center"
+            >
+              <img src={Github} alt="Linkedin Logo" />{" "}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pedro-henrique-pires-do-nascimento/"
+              target="__blank"
+              className="flex items-center col-span-2"
+            >
+              <img src={Linkedin} alt="Linkedin Logo" />{" "}
+            </a>
+            <a href="mailto:dckpedro@gmail.com" className="flex items-center">
+              <img src={Email} alt="Linkedin Logo" />{" "}
+            </a>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
