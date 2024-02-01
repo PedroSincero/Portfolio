@@ -9,8 +9,8 @@ export default function Contact() {
     <div>
       <Title title={"contacts"} span={"/"} subTitle={"Who am i?"} />
       <div className="flex justify-between">
-        <div className="w-1/5 text-secondary pt-16">{text}</div>
-        <div className=" inline-flex p-4 flex-col items-start gap-4 border border-secondary">
+        <div className="lg:w-1/5 text-secondary lg:pt-16">{text}</div>
+        <div className="hidden lg:inline-flex p-4 flex-col items-start gap-4 border border-secondary">
           <p>Me mande uma mensagem em: </p>
           <div className="flex items-center gap-1">
             <img src={Linkedin} alt="Linkedin Logo" />
