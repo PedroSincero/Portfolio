@@ -11,7 +11,6 @@ export default function Footer() {
           <div className="flex gap-3">
             <LogoDefault />
             <p>Pedro</p>
-            <p className=" text-secondary">dckpedro@gmail.com</p>
           </div>
           <p>FullStack Developer</p>
         </div>
